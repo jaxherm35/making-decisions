@@ -9,7 +9,7 @@
 //CODE HERE
 let lovesCode = true;
 
-if(lovesCode = true){
+if(lovesCode = true) {
   console.log("I love to code!");
 } else if(lovesCode != true){
   console.log("Coding has its challenges")
@@ -28,6 +28,13 @@ var brittanisBirthYear = 1986;
 */
 
 //CODE HERE
+if(amysAge > brittanisAge) {
+  console.log("Amy is older.");
+}else if(brittanisAge > amysAge) {
+  console.log("Brittani is older.");
+}else if(brittanisAge === amysAge) {
+  console.log("They are the same age.")
+}
 
 ////////// PROBLEM 3 //////////
 
